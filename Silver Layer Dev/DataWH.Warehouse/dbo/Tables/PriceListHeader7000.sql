@@ -1,0 +1,25 @@
+CREATE TABLE [dbo].[PriceListHeader7000] (
+
+	[NoSeries-17] varchar(max) NULL, 
+	[Description-2] varchar(max) NULL, 
+	[Code-1] varchar(max) NULL, 
+	[SourceGroup-3] varchar(max) NULL, 
+	[SourceType-4] varchar(max) NULL, 
+	[SourceID-7] varchar(max) NULL, 
+	[PriceType-8] varchar(max) NULL, 
+	[AmountType-9] varchar(max) NULL, 
+	[PriceIncludesVAT-13] bit NULL, 
+	[AllowLineDisc-15] bit NULL, 
+	[AllowInvoiceDisc-16] bit NULL, 
+	[Status-18] varchar(max) NULL, 
+	[AllowUpdatingDefaults-20] bit NULL, 
+	[timestamp-0] int NULL, 
+	[systemId-2000000000] varchar(max) NULL, 
+	[SystemCreatedAt-2000000001] datetime2(3) NULL, 
+	[SystemCreatedBy-2000000002] varchar(max) NULL, 
+	[SystemModifiedAt-2000000003] datetime2(3) NULL, 
+	[$Company] varchar(max) NULL, 
+	[$DeliveredDateTime] datetime2(3) NULL, 
+	[InsertDate] datetime2(3) NULL, 
+	[UpdateDate] datetime2(3) NULL
+);

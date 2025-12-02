@@ -1,0 +1,43 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Dataflow 3",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "Customer18": {
+      "queryId": "c9b65ccc-5e3f-480e-b300-ff203c68806e",
+      "queryName": "Customer18",
+      "loadEnabled": false
+    },
+    "Item27": {
+      "queryId": "d1216dc8-8fd9-4cf1-b480-abcaef2b8985",
+      "queryName": "Item27",
+      "loadEnabled": false
+    },
+    "Item27_DataDestination": {
+      "queryId": "4adeca20-5c71-4a1e-bd2c-d2a9fe0ba95d",
+      "queryName": "Item27_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Customer18_DataDestination": {
+      "queryId": "26ea8880-c90b-4319-9a81-f7978a0bb7ab",
+      "queryName": "Customer18_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "https://www.dropbox.com/scl/fi/4ce8rhjof5kjjoo1vndb1/Customer-and-Item.xlsx?rlkey=8n3qg2hntlii9r0yyp3avoe38&st=f1invfcl&dl=1",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"22b456ef-22b3-41a3-886e-1a64507eaaa1\",\"DatasourceId\":\"8a256654-6dc8-465f-b440-4d3aa7b958c2\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"22b456ef-22b3-41a3-886e-1a64507eaaa1\",\"DatasourceId\":\"0f989c1a-c91f-46cd-a165-ef0174be161d\"}"
+    }
+  ]
+}

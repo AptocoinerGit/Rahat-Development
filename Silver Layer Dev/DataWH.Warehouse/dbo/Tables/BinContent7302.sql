@@ -1,0 +1,25 @@
+CREATE TABLE [dbo].[BinContent7302] (
+
+	[LocationCode-1] varchar(max) NULL, 
+	[BinCode-3] varchar(max) NULL, 
+	[ItemNo-4] varchar(max) NULL, 
+	[BlockMovement-12] varchar(max) NULL, 
+	[MinQty-15] real NULL, 
+	[MaxQty-16] real NULL, 
+	[BinRanking-21] int NULL, 
+	[Fixed-37] bit NULL, 
+	[CrossDockBin-40] bit NULL, 
+	[Default-41] bit NULL, 
+	[QtyperUnitofMeasure-5404] real NULL, 
+	[UnitofMeasureCode-5407] varchar(max) NULL, 
+	[Dedicated-6502] bit NULL, 
+	[timestamp-0] int NULL, 
+	[systemId-2000000000] varchar(max) NULL, 
+	[SystemCreatedAt-2000000001] datetime2(3) NULL, 
+	[SystemCreatedBy-2000000002] varchar(max) NULL, 
+	[SystemModifiedAt-2000000003] datetime2(3) NULL, 
+	[$Company] varchar(max) NULL, 
+	[$DeliveredDateTime] datetime2(3) NULL, 
+	[InsertDate] datetime2(3) NULL, 
+	[UpdateDate] datetime2(3) NULL
+);
