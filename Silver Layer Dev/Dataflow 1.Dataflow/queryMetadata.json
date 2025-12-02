@@ -1,0 +1,164 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Dataflow 1",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "BinContent7302": {
+      "queryId": "a6237e41-8108-42b4-b08a-d11abffcf24c",
+      "queryName": "BinContent7302",
+      "loadEnabled": false
+    },
+    "ItemReference5777": {
+      "queryId": "8ce8b9fd-c628-422b-aae1-acbcffe23a17",
+      "queryName": "ItemReference5777",
+      "loadEnabled": false
+    },
+    "TeamSalesperson5084": {
+      "queryId": "3bd33351-8c38-4d09-88b0-31ebbc30a42b",
+      "queryName": "TeamSalesperson5084",
+      "loadEnabled": false
+    },
+    "WTBAOriginRegion87005": {
+      "queryId": "abd22fc9-4cf8-4ece-9635-340ac8ba3196",
+      "queryName": "WTBAOriginRegion87005",
+      "loadEnabled": false
+    },
+    "WTBAVarietal87014": {
+      "queryId": "f9581e30-eec6-4a4d-9839-7f37762a46f4",
+      "queryName": "WTBAVarietal87014",
+      "loadEnabled": false
+    },
+    "WTBAWineColor87016": {
+      "queryId": "7034da8a-b8ea-4b44-9f75-60c24eb47fe8",
+      "queryName": "WTBAWineColor87016",
+      "loadEnabled": false
+    },
+    "WTIAAllocationLedgerEntry90103": {
+      "queryId": "9ab63ec8-b89b-475c-8282-f53196a5f585",
+      "queryName": "WTIAAllocationLedgerEntry90103",
+      "loadEnabled": false
+    },
+    "WTBASubRegion87017": {
+      "queryId": "f7f77654-9638-4ef9-b465-ed2a6c9c7a1b",
+      "queryName": "WTBASubRegion87017",
+      "loadEnabled": false
+    },
+    "WTIAAllocation90101": {
+      "queryId": "0fc8110a-0e93-4d90-a36b-0bc51c19df09",
+      "queryName": "WTIAAllocation90101",
+      "loadEnabled": false
+    },
+    "WTBAVintage87008": {
+      "queryId": "5d34d8d7-90d9-424f-ba12-b5722440a0c8",
+      "queryName": "WTBAVintage87008",
+      "loadEnabled": false
+    },
+    "WTIAAllocSalesLineEntry90107": {
+      "queryId": "e32f0761-dd2f-4e10-9d0d-4ca5f836eb8a",
+      "queryName": "WTIAAllocSalesLineEntry90107",
+      "loadEnabled": false
+    },
+    "WarehouseEntry7312": {
+      "queryId": "26cc1156-eaa6-4dca-8d03-712e266f7833",
+      "queryName": "WarehouseEntry7312",
+      "loadEnabled": false
+    },
+    "PriceListHeader7000": {
+      "queryId": "dd2da486-61d6-4394-b528-bd19c9e596f1",
+      "queryName": "PriceListHeader7000",
+      "loadEnabled": false
+    },
+    "BinContent7302_DataDestination": {
+      "queryId": "8169ac44-57a7-4629-a91a-8afe9d73a93f",
+      "queryName": "BinContent7302_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "ItemReference5777_DataDestination": {
+      "queryId": "26b4e1fe-2dc9-44c4-b20c-d7c8db442acb",
+      "queryName": "ItemReference5777_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "TeamSalesperson5084_DataDestination": {
+      "queryId": "c94d416d-6953-40a3-ab41-402ad2635769",
+      "queryName": "TeamSalesperson5084_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "WTBAOriginRegion87005_DataDestination": {
+      "queryId": "7ae170ff-7eee-4551-ad66-6eeb2405b13f",
+      "queryName": "WTBAOriginRegion87005_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "WTBAVarietal87014_DataDestination": {
+      "queryId": "fcbad748-572d-4211-8ce9-43eaf3030e19",
+      "queryName": "WTBAVarietal87014_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "WTBAWineColor87016_DataDestination": {
+      "queryId": "5956c8d3-3e7f-4cd0-8e74-207bcc3f8b5c",
+      "queryName": "WTBAWineColor87016_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "WTIAAllocationLedgerEntry90103_DataDestination": {
+      "queryId": "f952b6aa-1f16-4536-a4dc-8a249ee6965a",
+      "queryName": "WTIAAllocationLedgerEntry90103_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "WTBASubRegion87017_DataDestination": {
+      "queryId": "b56a6dec-f773-41f9-8f9d-0d8ed9f1e0e4",
+      "queryName": "WTBASubRegion87017_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "WTIAAllocation90101_DataDestination": {
+      "queryId": "5715ea0b-504a-413f-b4ea-a5d0a6ce30f5",
+      "queryName": "WTIAAllocation90101_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "WTBAVintage87008_DataDestination": {
+      "queryId": "f20c06ee-458c-4594-bffe-33024c01b10e",
+      "queryName": "WTBAVintage87008_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "WTIAAllocSalesLineEntry90107_DataDestination": {
+      "queryId": "21b722cc-2897-4980-8669-afe0d72af0bb",
+      "queryName": "WTIAAllocSalesLineEntry90107_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "WarehouseEntry7312_DataDestination": {
+      "queryId": "8af4b642-52a0-4252-ac15-fd8f4984553b",
+      "queryName": "WarehouseEntry7312_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "PriceListHeader7000_DataDestination": {
+      "queryId": "b5ddbfb1-7496-4604-833c-b0e87a77a467",
+      "queryName": "PriceListHeader7000_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "https://www.dropbox.com/scl/fi/znd9jqzokd89u0fph5nv2/Sample-Data.xlsx?rlkey=e88is46o5bld47q6beqwunvo9&st=em7oqanm&dl=1",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"22b456ef-22b3-41a3-886e-1a64507eaaa1\",\"DatasourceId\":\"cabb5440-9e11-4b86-b569-8d4746f1714d\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"22b456ef-22b3-41a3-886e-1a64507eaaa1\",\"DatasourceId\":\"0f989c1a-c91f-46cd-a165-ef0174be161d\"}"
+    }
+  ]
+}
