@@ -14924,6 +14924,151 @@
         ]
       },
       {
+        "name": "Allocation",
+        "sourceLineageTag": "[gold].[Allocation]",
+        "columns": [
+          {
+            "name": "based_on_criteria",
+            "dataType": "string",
+            "sourceColumn": "based_on_criteria",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "based_on_criteria",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "allocation_description",
+            "dataType": "string",
+            "sourceColumn": "allocation_description",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "allocation_description",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "expiration_date",
+            "dataType": "dateTime",
+            "sourceColumn": "expiration_date",
+            "formatString": "General Date",
+            "sourceProviderType": "date",
+            "sourceLineageTag": "expiration_date",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "item_no",
+            "dataType": "string",
+            "sourceColumn": "item_no",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "item_no",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "item_description",
+            "dataType": "string",
+            "sourceColumn": "item_description",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "item_description",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "remainingQty",
+            "dataType": "double",
+            "sourceColumn": "remainingQty",
+            "sourceProviderType": "decimal",
+            "sourceLineageTag": "remainingQty",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "sales_quantity",
+            "dataType": "double",
+            "sourceColumn": "sales_quantity",
+            "sourceProviderType": "decimal",
+            "sourceLineageTag": "sales_quantity",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "SalespersonCode",
+            "dataType": "string",
+            "sourceColumn": "SalespersonCode",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "SalespersonCode",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "{{Partition_Name}}",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "Allocation",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "gold"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "IsTableInBiModel",
+            "value": "False"
+          }
+        ]
+      },
+      {
         "name": "BHReport",
         "sourceLineageTag": "[gold].[BHReport]",
         "columns": [
