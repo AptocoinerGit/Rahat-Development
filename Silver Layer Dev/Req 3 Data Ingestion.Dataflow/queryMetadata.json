@@ -1,0 +1,65 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Req 3 Data Ingestion",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "SalesCrMemoHeader114": {
+      "queryId": "8f56729e-55e1-4fc2-a89a-45237fd33925",
+      "queryName": "SalesCrMemoHeader114",
+      "loadEnabled": false
+    },
+    "SalesCrMemoLine115": {
+      "queryId": "7e11cfba-413b-4bf7-ac62-2aad4e77c4ac",
+      "queryName": "SalesCrMemoLine115",
+      "loadEnabled": false
+    },
+    "SalesInvoiceHeader112": {
+      "queryId": "850ad61c-2de8-47ef-bf85-732e826abf86",
+      "queryName": "SalesInvoiceHeader112",
+      "loadEnabled": false
+    },
+    "SalesInvoiceLine113": {
+      "queryId": "d9209943-c42c-4051-a00a-d485f9ee70c1",
+      "queryName": "SalesInvoiceLine113",
+      "loadEnabled": false
+    },
+    "SalesCrMemoHeader114_DataDestination": {
+      "queryId": "6b27f15e-9ca7-4ca7-841a-39f0ef01edd2",
+      "queryName": "SalesCrMemoHeader114_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "SalesCrMemoLine115_DataDestination": {
+      "queryId": "cab70026-8857-4ff4-8fdb-362ce9ab35f4",
+      "queryName": "SalesCrMemoLine115_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "SalesInvoiceHeader112_DataDestination": {
+      "queryId": "53408972-967c-4129-8bf1-1ce5d4f1c1f2",
+      "queryName": "SalesInvoiceHeader112_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "SalesInvoiceLine113_DataDestination": {
+      "queryId": "cb3a87e4-6caa-4ea1-8673-6c32418990f8",
+      "queryName": "SalesInvoiceLine113_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "https://www.dropbox.com/scl/fi/fl91oiquv6a71wrzfxsya/Req-3-Sample-data.xlsx?rlkey=74wh609g7pc5d79kccegid4th&st=xv3fjj3g&dl=1",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"22b456ef-22b3-41a3-886e-1a64507eaaa1\",\"DatasourceId\":\"13518748-d457-4484-82ee-aea6b5324030\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"22b456ef-22b3-41a3-886e-1a64507eaaa1\",\"DatasourceId\":\"0f989c1a-c91f-46cd-a165-ef0174be161d\"}"
+    }
+  ]
+}

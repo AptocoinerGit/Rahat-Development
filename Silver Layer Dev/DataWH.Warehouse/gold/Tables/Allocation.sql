@@ -7,5 +7,7 @@ CREATE TABLE [gold].[Allocation] (
 	[item_description] varchar(255) NULL, 
 	[remainingQty] decimal(18,2) NULL, 
 	[sales_quantity] decimal(18,2) NULL, 
-	[SalespersonCode] varchar(50) NULL
+	[SalespersonCode] varchar(50) NULL, 
+	[salesline_systemId] varchar(max) NULL, 
+	[ledgerentry_systemId] varchar(max) NULL
 );
